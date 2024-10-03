@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(./img/IN-en-20240909-TRIFECTA-perspective_b22117e0-4610-4d57-a695-20f77d241a4a_large.jpg);
+    height: 90vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:max(1000px, 100vw );
+    position: relative;
+
+}
+.main .box{
+    height: 90vh;
+    width: 100%;
+    background-color: black;
+    opacity:0.66;
+    position: absolute;
+    top: 0;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  
+    
+}
+.logo{
+    height: 50px;
+    width: 155px;
+    position: relative;
+    z-index: 1;
+    margin-right: 700px;
+    margin-top: 15px;
+}
+.right-button{
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+}
+#select{
+    width: 130px;
+    height: 25px;
+}
+.right-corner{
+    height: 25px;
+    background-color: red;
+    border: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 2px;
+    cursor: pointer;
+
+
+}
+.center{
+    height: 80vh;
+    color: white;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+
+}
+.top{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+.shows{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.middle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+}
+.email{
+    margin-top: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.address{
+    margin-top: 18px;
+    height: 60px;
+    width: 400px;
+    border: white;
+    border-radius: 3px;
+    margin-right: 10px;
+   text-align: start;
+   font-size: large;
+
+
+    
+}
+.get-started{
+    height: 60px;
+    width: 120px;
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    border: red;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.Tranding{
+    color: white;
+    margin-left: 200px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+.second-para{
+    height: 80vh;
+}
+#india{
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+}
+#movies{
+    height: 30px;
+    width: 90px;
+    border-radius: 3px;
+    
+    
+}
+.movie{
+    margin-left: 200px;
+    margin-top: 10px;
+}
+.top-movies{
+    display: flex;
+    flex-direction:row;
+    height: 300px;
+    width: 280px;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+
+.join{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 30px;
+    font-size: larger;
+}
+.more{
+    margin-top: 20px;
+}
+.big-box{
+    height: 300px;
+    width: 1150px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-color: rgb(14, 36, 55);
+    column-gap: 10px;
+    font-family: sans-serif;
+
+}
+.boxa{
+    border: 1px solid grey;
+    height: 300px;
+    width: 400px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+.watch{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(182, 126, 126);
+}
+.Download{
+    font-size: medium;
+    font-weight: bold;
+    border-radius: 10px;
+    color: rgb(182, 126, 126);
+
+}
+.kids{
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(182, 126, 126);
+
+    
+}
+.asked{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+
+
+}
+
+.box3{
+    width: 100%;
+    height: 80vh;
+    
+    color: rgb(79, 48, 48);
+    display: flex;
+    color: white;
+    column-gap: 10px;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 30px;
+    
+    
+}
+
+    
+.line1{
+    background-color: darkslategrey;
+    align-items: center;
+    height: 30vh;
+    width:76vw;
+    display: flex;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+.box-4{
+    margin-top: 80px;
+    height: 5vh;
+    width: 76vw;;
+    display: flex;
+   
+    
+}
+.Ready{
+    display: flex;
+    justify-content: center;
+    margin-left: 50vh;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+    
+}
+
+
+.box-5{
+    margin-top: 10px;
+    flex-direction: row;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    column-gap: 10px;
+    
+    
+}
+.gmail{
+    width:600px;
+    border: 2px solid brown;
+    background-color: rgb(14, 11, 11);
+    border-radius: 3px;
+    font-size: large;
+
+}
+.get-started2{
+    width: 100px;
+    border: red;
+    background-color: red;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.foot{
+    margin-top: 20px;
+    height: 25vh;
+    width: 75vw;
+    background-color: rgb(19, 20, 20);
+    color: white;
+}
+.foot2{
+    display: flex;
+    height: 20vh;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.line2{
+        height: 30vh;
+    width:250px;
+    color: white;
+    cursor: pointer;
+}
+#english2{
+    margin-top: 20px;
+    width: 100px;
+}
+.last{
+    margin-top: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
